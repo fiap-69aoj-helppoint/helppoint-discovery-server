@@ -1,6 +1,6 @@
 spring:
   application:
-    name: discovery-server
+    name: helppoint-discovery-server
   profiles:
     active:
       dev
