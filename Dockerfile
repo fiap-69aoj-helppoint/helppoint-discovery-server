@@ -5,6 +5,6 @@ LABEL source="https://github.com/fiap-69aoj/helppoint-discovery-server" \
 
 ADD ./target/discovery-server-0.0.1-SNAPSHOT.jar discovery-server.jar
 
-EXPOSE 8761
+EXPOSE 9091
 
 ENTRYPOINT ["java","-jar", "-Dspring.profiles.active=prod", "/discovery-server.jar"]
