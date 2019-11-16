@@ -1,4 +1,8 @@
 eureka:
   client:
-    serviceUrl:
-      defaultZone: http://localhost:9091
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+  serviceUrl:
+    defaultZone: http://localhost:8761
